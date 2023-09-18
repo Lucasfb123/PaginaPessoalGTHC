@@ -168,7 +168,6 @@
             margin: 0;
         }
 
-        /* Estilo para os ícones */
         .icone {
             font-size: 26px; 
             color: white;
