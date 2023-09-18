@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas Faura Biondi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <style>
+        body {
+            background-color: #333;
+            margin: 0;
+            padding: 0;
+            font-family: 'Times New Roman', Times, serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .retangulo {
+            width: 70%;
+            height: 7cm;
+            border: 2px solid #000;
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+            background-color: #2f803a;
+        }
+
+        .titulo {
+            font-weight: bold;
+        }
+
+        .paragrafo {
+            text-align: justify;
+            font-size: 14px;
+            line-height: 1.2;
+            max-width: 95%;
+            margin: 10px auto;
+        }
+
+        .imagem {
+            max-width: 100%;
+            height: auto;
+            float: left;
+            margin-right: 3%; 
+            border-radius: 46%;
+            margin-bottom: 20px;
+        }
+
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .barra-vertical {
+            width: 2px;
+            height: 30px;
+            background-color: #000;
+            margin-top: 0px;
+        }
+
+        .segundo-retangulo {
+            width: 70%;
+            height: auto;
+            border: 2px solid #000;
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+            background-color: #2f803a;
+            margin-top: 0px;
+            display: flex; 
+            flex-direction: column; 
+            align-items: flex-start; 
+        }
+
+    
+        .segundo-retangulo .titulo {
+            font-weight: bold;
+            font-size: 20px; 
+            margin: 0; 
+
+        .segundo-retangulo .paragrafo22 {
+            text-align: justify;
+            font-size: 14px;
+            line-height: 1.2;
+            max-width: 45%;
+            margin: 10px 0;
+        }
+
+        .segundo-retangulo .paragrafo23 {
+            text-align: justify;
+            font-size: 14px;
+            line-height: 1.2;
+            max-width: 45%;
+            margin: 10px 0;
+        }
+        .segundo-retangulo .paragrafo24 {
+            text-align: justify;
+            font-size: 14px;
+            line-height: 1.2;
+            max-width: 45%;
+            margin: 10px 0;
+        }
+
+        .paragrafo-com-recuo {
+            text-align: justify;
+            font-size: 12px; 
+            line-height: 1.2;
+            max-width: 45%;
+            margin: -7px 0 5px 20px;
+            padding-left: 20px; 
+        }
+
+        .imagem-com-legenda {
+            position: relative;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .imagem-com-legenda img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .imagem-com-legenda .legenda {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 5px 10px;
+            font-size: 12px;
+            border-radius: 5px;
+            visibility: hidden;
+        }
+
+        .imagem-com-legenda:hover .legenda {
+            visibility: visible;
+        }
+        
+        .segunda-barra-vertical {
+            width: 2px;
+            height: 30px;
+            background-color: #000;
+            margin-top: 0px;
+        }
+
+        .terceiro-retângulo {
+            width: 70%;
+            height: 2cm;
+            border: 2px solid #000;
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+            background-color: #2f803a;
+            margin-top: 0px; 
+        }
+
+        .terceiro-retângulo .titulo {
+            font-weight: bold;
+            font-size: 24px; 
+            margin: 0;
+        }
+
+        /* Estilo para os ícones */
+        .icone {
+            font-size: 26px; 
+            color: white;
+            margin: 10px;
+        }
+
+        @media (max-width: 600px) {
+            .retangulo {
+                width: 90%;
+            }
+            .imagem {
+                margin-right: 0;
+                margin-bottom: 10px; 
+            }
+            .segundo-retangulo .paragrafo22,
+            .segundo-retangulo .paragrafo23,
+            .segundo-retangulo .paragrafo24 {
+                max-width: 100%; 
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="retangulo">
+            <h1 class="titulo">Lucas Faura Biondi</h1>
+            <img class="imagem" src="C:\Users\Lucas Faura Biondi\Documents\GTHC\Paginaa\img\avatarcthg.jpg" width="125" height="75">
+            <p class="paragrafo">Prazer, me chamo Lucas Faura Biondi, ingressei na UFABC em 2017, através do curso de bacharelado em Ciência e Tecnologia com foco em formação nos cursos de licenciatura e bacharelado em Química.</p>
+            <p class="paragrafo">Fiz parte do programa de extensão Residência Pedagógica e atualmente sou membro do GTHC (Green Team Hacker Club), mais especificamente do grupo de desenvolvimento web.</p>
+        </div>
+        <div class="barra-vertical"></div>
+        <div class="segundo-retangulo">
+            <h1 class="titulo">Experiência Acadêmica</h1>
+            <p class="paragrafo22">Universidade Federal do ABC - UFABC</p>
+            <p class="paragrafo-com-recuo">Bacharelado em Ciência e Tecnologia · (2017 - )</p>
+            <p class="paragrafo23">Universidade Federal do ABC - UFABC</p>
+            <p class="paragrafo-com-recuo">Bacharelado e Licenciatura em Química · (2018 - )</p>
+            <p class="paragrafo24">ETEC - Escola Técnica Estadual de São Paulo</p>
+            <p class="paragrafo-com-recuo">Técnico em Química · (2013 - 2015)</p>
+            <h2 class="titulo" style="margin-top: 40px;">Experiência Profissional</h2>
+            <p class="paragrafo23">CAPES - Coordenação de Aperfeiçoamento de Pessoal de Nível Superior</p>
+            <p class="paragrafo-com-recuo">Residência Pedagógica · (novembro de 2022 - julho de 2023)</p>
+            <p class="paragrafo-com-recuo">Competências: Educação</p>
+            <h3 class="titulo" style="margin-top: 40px;">Projetos Pessoais e Atividades na Entidade</h3>
+            <div class="imagem-com-legenda">
+                <a href="https://github.com/Lucasfb123" target="_blank">
+                    <img src="C:\Users\Lucas Faura Biondi\Documents\GTHC\Paginaa\img\em construção.jpg" alt="Em construção" title=" ">
+                    <span class="legenda">Em construção, mas você pode acessar meu github para ver meus projetos em andamento clicando na imagem.</span>
+                </a>
+            </div>
+        </div>
+        <div class="segunda-barra-vertical"></div>
+        <div class="terceiro-retângulo">
+            <h1 class="titulo">Contato</h1>
+            <!-- Links para LinkedIn e email/carta -->
+            <a href="https://www.linkedin.com/in/lucas-faura-biondi-8717a1158" target="_blank"><i class="fab fa-linkedin icone"></i></a>
+            <a href="mailto:lucas_faura@hotmail.com"><i class="fas fa-envelope icone"></i></a>
+        </div>
+
+    </div>
+</body>
+</html>
